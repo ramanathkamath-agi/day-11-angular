@@ -1,0 +1,12 @@
+div{
+    display: inline-flex;
+    
+    font-size: 30px;
+}
+.a{
+    left:30%;
+    align-content: center;
+}
+.b{
+    left:60%;
+}
