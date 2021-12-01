@@ -7,7 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { Router, RouterModule } from '@angular/router';
-import { FormComponent } from './form/form.component';
+
+import { ProductComponent } from './product/product.component';
+import { MobileComponent } from './mobile/mobile.component';
+import { CameraComponent } from './camera/camera.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { FormComponent } from './form/form.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    FormComponent
+ 
+    ProductComponent,
+      MobileComponent,
+      CameraComponent
   ],
   imports: [
     BrowserModule,
